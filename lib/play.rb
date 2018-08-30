@@ -39,7 +39,7 @@ end
 def play(board)
   turn(board)
   until turn(board) == 9
-    play(board) == turn(board)
+    play(board)
     break turn(board) == 10
   end
 end
